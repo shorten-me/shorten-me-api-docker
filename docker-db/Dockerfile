@@ -11,6 +11,3 @@ ADD ["/pg_hashids/pg_hashids.control", "/pg_hashids/pg_hashids--1.2.sql", "/pg_h
 
 # 'Adicionando o script do banco de dados'
 ADD init.sql /docker-entrypoint-initdb.d/
-
-# 'Adicionando o APP'
-ADD /server /home/
